@@ -26,7 +26,7 @@ class _PerguntaAppState extends State<PerguntaApp> {
         ),
         body: Column(
           children: <Widget>[
-            Questao(perguntas[_perguntaSeleionada]),
+            Questao(perguntas[_perguntaSeleionada], 'teste'),
             Resposta('resposta 1 ', _responder),
             Resposta('resposta 2 ', _responder),
             Resposta('resposta 3 ', _responder)
